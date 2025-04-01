@@ -8,6 +8,7 @@ instance_type(Optional): Default value is t3.micro.
 tags(Optional): Default value is empty.
 
 Outputs:
+
 public_ip: outputs the public IP of the instance created.
 private_ip: outputs the private IP of the instance created.
 instance_id: outputs the instance ID created.

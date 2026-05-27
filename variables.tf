@@ -1,11 +1,11 @@
 variable "ami_id" {
     type = string
-    default = "ami-09c813fb71547fc4f"
+    default = "ami-0220d79f3f480ecf5"
 }
 
 variable "security_group_ids" {
     type = list
-    default = ["sg-0499d70758d96fef2"]  #replace with your SG ID.
+    default = ["sg-0cfd2494dbe0a6357"]   #replace with your SG ID.
 }
 
 variable "instance_type" {
